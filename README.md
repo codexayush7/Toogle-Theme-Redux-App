@@ -4,7 +4,7 @@
 An elegant React + Redux Toolkit application that toggles between light and dark modes with smooth transitions and stylish design. Perfect for learning Redux global state management and responsive theming in modern web apps.
 
 🔗 Live Demo
-👉 https://your-live-link.netlify.app
+👉 https://toogle-theme-redux-app.vercel.app/
 
 🛠 Features
 - 🌗 Toggle between Light & Dark themes
