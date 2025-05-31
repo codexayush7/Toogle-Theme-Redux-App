@@ -1,0 +1,73 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html, #root {
+    height: 100%;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background 0.5s ease, color 0.5s ease;
+}
+
+/* Light Theme */
+.app.light {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    color: #2f3542;
+}
+
+/* Dark Theme */
+.app.dark {
+    background: linear-gradient(135deg, #2f3542, #57606f);
+    color: #f1f2f6;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 3rem 4rem;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 320px;
+    transition: background 0.5s ease;
+}
+
+.app.dark .container {
+    background: rgba(44, 52, 62, 0.85);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
+
+h1 {
+    font-weight: 700;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    user-select: none;
+}
+
+.toggle-btn {
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #ff6b6b, #f06595);
+    color: white;
+    box-shadow: 0 6px 15px rgba(255,107,107,0.5);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    user-select: none;
+}
+
+.toggle-btn:hover {
+    background: linear-gradient(45deg, #f06595, #ff6b6b);
+    box-shadow: 0 8px 20px rgba(240,101,149,0.7);
+}
