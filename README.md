@@ -1,12 +1,45 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎨 Redux Theme Toggle App
 
-Currently, two official plugins are available:
+An elegant React + Redux Toolkit application that toggles between light and dark modes with smooth transitions and stylish design. Perfect for learning Redux global state management and responsive theming in modern web apps.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 Live Demo
+👉 https://your-live-link.netlify.app
 
-## Expanding the ESLint configuration
+🛠 Features
+- 🌗 Toggle between Light & Dark themes
+- ⚛️ Built with React and Redux Toolkit
+- 🎨 Unique & elegant animated CSS
+- 🧠 Global state management with Redux
+- 🔥 Smooth and responsive design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+🚀 Getting Started
+📦 Installation
+git clone https://github.com/codexayush7/Toogle-Theme-Redux-App
+cd Toogle-Theme-Redux-App
+npm install
+npm run dev
+
+
+🧪 Technologies Used
+- React
+- Redux Toolkit
+- Vite or CRA (React App Bundler)
+- CSS transitions & gradients
+
+📖 Learning Outcomes
+- Understanding Redux store and slice
+- Managing global UI state
+- Applying conditional classNames
+- Designing smooth theme transitions
+
+🤝 Contributing
+Pull requests are welcome! If you’d like to contribute, please fork the repo and open a PR.
+
+📄 License
+Licensed under MIT License
+
+👤 Author
+GitHub: @codexayush7
+Email: codex.ayush7@gmail.com
